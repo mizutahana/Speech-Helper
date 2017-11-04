@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>First Project!</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="webspeech.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="
+    sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="webspeech.js"></script>
+</head>
+
+<body>
+    <h1>Speech Helper</h1>
+    <p id="instructions">Click on the microphone icon to start the speech recognition.
+        <br> If you click the speaker icon, the text will be read back to you.
+        <br>We'll be sure to preserve all of the frequency changes in your voice.</p>
+    <p id="textbox">The text will appear here when you start speaking.</p>
+    <div id="icons">
+        <i id="microphone" class="fa fa-microphone" fa-5x aria-hidden="true" onclick="toggleRec()"></i>
+        <i id="speaker" class="fa fa-volume-up" fa-5x aria-hidden="true" onclick="readRec()"></i>
+    </div>
+    
+</body>
+
+</html>

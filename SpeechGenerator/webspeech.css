@@ -1,0 +1,32 @@
+#textbox {
+	border-style: solid;
+	border-radius: 5px;
+	height: 200px;
+	text-align: left;
+	border-width: thin;
+	margin: 25px;
+	padding: 10px;
+	color: grey;
+}
+
+button {
+	border-style: solid;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+#instructions {
+}
+
+#microphone #speaker {
+	margin: 25px 50px 25px 50px;
+	font-family: 50px;
+	color: red;
+}
+
+#speaker {
+	color: grey;
+}
